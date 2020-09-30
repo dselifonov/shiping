@@ -19,16 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d8f5ce71-90ea-4ba4-9bc3-91fccf08232f" name="Default Changelist" comment="init">
-      <change afterPath="$PROJECT_DIR$/cli/consignment.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cli/go.mod" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cli/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/consignment/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/consignment/go.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/consignment/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/consignment/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/consignment/proto/consignment.pb.go" beforeDir="false" afterPath="$PROJECT_DIR$/consignment/proto/consignment.pb.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/consignment/proto/consignment.proto" beforeDir="false" afterPath="$PROJECT_DIR$/consignment/proto/consignment.proto" afterDir="false" />
-    </list>
+    <list default="true" id="d8f5ce71-90ea-4ba4-9bc3-91fccf08232f" name="Default Changelist" comment="init" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -108,7 +99,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601460715411</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="init">
+      <created>1601462940700</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1601462940700</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -127,9 +125,9 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="init" />
     <MESSAGE value="shipping service" />
-    <option name="LAST_COMMIT_MESSAGE" value="shipping service" />
+    <MESSAGE value="init" />
+    <option name="LAST_COMMIT_MESSAGE" value="init" />
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
@@ -139,10 +137,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="520" y="290" key="#Go_Modules/0.0.1440.900@0.0.1440.900" timestamp="1601459801683" />
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1601460716828">
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1601462941910">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1601460716828" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1601462941910" />
     <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1601458189960">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
