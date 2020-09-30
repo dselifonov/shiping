@@ -4,7 +4,7 @@
 // 	protoc        v3.13.0
 // source: consignment.proto
 
-package consignment
+package proto
 
 import (
 	context "context"
