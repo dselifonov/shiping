@@ -19,7 +19,20 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d8f5ce71-90ea-4ba4-9bc3-91fccf08232f" name="Default Changelist" comment="init" />
+    <list default="true" id="d8f5ce71-90ea-4ba4-9bc3-91fccf08232f" name="Default Changelist" comment="part 1">
+      <change afterPath="$PROJECT_DIR$/README.MD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cli/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consignment/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consignment/proto/consignment.pb.micro.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cli/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/cli/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cli/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/cli/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/consignment/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/consignment/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/consignment/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/consignment/go.sum" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/consignment/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/consignment/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/consignment/proto/consignment.pb.go" beforeDir="false" afterPath="$PROJECT_DIR$/consignment/proto/consignment.pb.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/consignment/proto/consignment.proto" beforeDir="false" afterPath="$PROJECT_DIR$/consignment/proto/consignment.proto" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -64,6 +77,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/consignment/proto" />
       <recent name="$PROJECT_DIR$/consignment" />
       <recent name="$PROJECT_DIR$/consignment/proto/consignment" />
@@ -106,7 +120,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601462940700</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="part 1">
+      <created>1601463272766</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1601463272766</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -127,7 +148,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="shipping service" />
     <MESSAGE value="init" />
-    <option name="LAST_COMMIT_MESSAGE" value="init" />
+    <MESSAGE value="part 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="part 1" />
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
@@ -137,13 +159,13 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="520" y="290" key="#Go_Modules/0.0.1440.900@0.0.1440.900" timestamp="1601459801683" />
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1601462941910">
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1601463274110">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1601462941910" />
-    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1601458189960">
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1601463274110" />
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1605082732985">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1601458189960" />
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1605082732985" />
   </component>
 </project>
