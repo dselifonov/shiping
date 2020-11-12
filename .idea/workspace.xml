@@ -20,18 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d8f5ce71-90ea-4ba4-9bc3-91fccf08232f" name="Default Changelist" comment="part 1">
-      <change afterPath="$PROJECT_DIR$/README.MD" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cli/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consignment/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consignment/proto/consignment.pb.micro.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cli/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/cli/go.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cli/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/cli/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/consignment/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/consignment/go.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/consignment/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/consignment/go.sum" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/consignment/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/consignment/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/consignment/proto/consignment.pb.go" beforeDir="false" afterPath="$PROJECT_DIR$/consignment/proto/consignment.pb.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/consignment/proto/consignment.proto" beforeDir="false" afterPath="$PROJECT_DIR$/consignment/proto/consignment.proto" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vessel/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/vessel/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vessel/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/vessel/go.sum" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,13 +45,16 @@
     <option name="indexEntireGoPath" value="false" />
   </component>
   <component name="ProjectId" id="1iDscS4uM2eq4atCQy2QF2Qj6z4" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="autoscrollFromSource" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultGoTemplateProperty" value="Go File" />
     <property name="GO_FMT" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
@@ -67,7 +62,7 @@
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
     <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/vessel" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -76,6 +71,9 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/vessel" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/consignment/proto" />
@@ -127,7 +125,42 @@
       <option name="project" value="LOCAL" />
       <updated>1601463272766</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="part 1">
+      <created>1605083071959</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1605083071959</updated>
+    </task>
+    <task id="LOCAL-00007" summary="part 1">
+      <created>1605189941719</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1605189941719</updated>
+    </task>
+    <task id="LOCAL-00008" summary="part 1">
+      <created>1605190551171</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1605190551171</updated>
+    </task>
+    <task id="LOCAL-00009" summary="part 1">
+      <created>1605190925934</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1605190925934</updated>
+    </task>
+    <task id="LOCAL-00010" summary="part 1">
+      <created>1605191913405</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1605191913405</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -146,6 +179,7 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="shipping service" />
     <MESSAGE value="init" />
     <MESSAGE value="part 1" />
@@ -159,10 +193,14 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="520" y="290" key="#Go_Modules/0.0.1440.900@0.0.1440.900" timestamp="1601459801683" />
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1601463274110">
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1605191915454">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1601463274110" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1605191915454" />
+    <state x="418" y="205" width="604" height="490" key="find.popup" timestamp="1605192560953">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="418" y="205" width="604" height="490" key="find.popup/0.0.1440.900@0.0.1440.900" timestamp="1605192560953" />
     <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1605082732985">
       <screen x="0" y="0" width="1440" height="900" />
     </state>

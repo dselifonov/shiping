@@ -3,6 +3,7 @@ package main
 import (
 	"context"
 	pb "github.com/dselifonov/shiping/consignment/proto"
+	vesselProto "github.com/dselifonov/shiping/vessel/proto"
 	"github.com/micro/go-micro/v2"
 	"log"
 )
@@ -29,9 +30,20 @@ func (repo *Repository) GetAll() []*pb.Consignment {
 // Service Code
 type consignmentService struct {
 	repo repository
+	vesselClient vesselProto.VesselServiceClient
 }
 
 func (s *consignmentService) CreateConsignment(ctx context.Context, req *pb.Consignment, res *pb.Response) error {
+	vesselResponse, err := s.vesselClient.FindAvailable(context.Background(), &vesselProto.Specification{
+		MaxWeight: req.Weight,
+		Capacity: int32(len(req.Containers)),
+	})
+	if err != nil {
+		return err
+	}
+	log.Printf("Found vessel: %s \n", vesselResponse.Vessel.Name)
+	req.VesselId = vesselResponse.Vessel.Id
+
 	consignment, err := s.repo.Create(req)
 	if err != nil {
 		return err
@@ -53,7 +65,9 @@ func main() {
 	service := micro.NewService(micro.Name("consignment"))
 	service.Init()
 
-	if err := pb.RegisterShippingServiceHandler(service.Server(), &consignmentService{repo}); err != nil {
+	vesselClient := vesselProto.NewVesselServiceClient("go.micro.srv.vessel", service.Client())
+
+	if err := pb.RegisterShippingServiceHandler(service.Server(), &consignmentService{repo, vesselClient}); err != nil {
 		log.Panic(err)
 	}
 

@@ -2,6 +2,7 @@
 ```shell script
 docker build -t consignment .
 docker build -t cli .
+docker build -t vessel .
 ```
 
 ### Run
