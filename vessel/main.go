@@ -3,7 +3,6 @@ package main
 import (
 	"context"
 	"errors"
-	"github.com/micro/micro/v2/cmd/protoc-gen-micro/plugin/micro"
 	"log"
 
 	pb "github.com/dselifonov/shiping/vessel/proto"
