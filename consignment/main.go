@@ -3,6 +3,7 @@ package main
 import (
 	"context"
 	pb "github.com/dselifonov/shiping/consignment/proto"
+	pbVessel "github.com/dselifonov/shiping/vessel/proto"
 	"github.com/micro/go-micro/v2"
 	"log"
 )
@@ -52,6 +53,8 @@ func main() {
 	repo := &Repository{}
 	service := micro.NewService(micro.Name("consignment"))
 	service.Init()
+
+	vesselClient := pbVessel.NewVesselService("vessel.client", service.Client())
 
 	if err := pb.RegisterShippingServiceHandler(service.Server(), &consignmentService{repo}); err != nil {
 		log.Panic(err)

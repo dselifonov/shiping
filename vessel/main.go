@@ -3,10 +3,9 @@ package main
 import (
 	"context"
 	"errors"
-	"log"
-
 	pb "github.com/dselifonov/shiping/vessel/proto"
 	"github.com/micro/go-micro/v2"
+	"log"
 )
 
 type Repository interface {
@@ -26,7 +25,7 @@ func (repo *VesselRepository) FindAvailable(spec *pb.Specification) (*pb.Vessel,
 			return vessel, nil
 		}
 	}
-	return nil, errors.New("No vessel found by that spec")
+	return nil, errors.New("no vessel found by that spec")
 }
 
 // Our grpc service handler
@@ -48,15 +47,10 @@ func (s *vesselService) FindAvailable(ctx context.Context, req *pb.Specification
 }
 
 func main() {
-	vessels := []*pb.Vessel{
-		&pb.Vessel{Id: "vessel001", Name: "Boaty McBoatface", MaxWeight: 200000, Capacity: 500},
-	}
+	vessels := []*pb.Vessel{{Id: "vessel001", Name: "Boaty McBoatface", MaxWeight: 200000, Capacity: 500}}
+
 	repo := &VesselRepository{vessels}
-
-	service := micro.NewService(
-		micro.Name("shippy.service.vessel"),
-	)
-
+	service := micro.NewService(micro.Name("vessel"))
 	service.Init()
 
 	// Register our implementation with
