@@ -21,9 +21,11 @@
   <component name="ChangeListManager">
     <list default="true" id="d8f5ce71-90ea-4ba4-9bc3-91fccf08232f" name="Default Changelist" comment="part 1">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cli/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/cli/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cli/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/cli/go.sum" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/consignment/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/consignment/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/consignment/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/consignment/go.sum" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/consignment/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/consignment/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vessel/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/vessel/go.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vessel/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/vessel/go.sum" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

@@ -29,14 +29,14 @@ func (repo *Repository) GetAll() []*pb.Consignment {
 
 // Service Code
 type consignmentService struct {
-	repo repository
-	vesselClient vesselProto.VesselServiceClient
+	repo         repository
+	vesselClient vesselProto.VesselService
 }
 
 func (s *consignmentService) CreateConsignment(ctx context.Context, req *pb.Consignment, res *pb.Response) error {
 	vesselResponse, err := s.vesselClient.FindAvailable(context.Background(), &vesselProto.Specification{
 		MaxWeight: req.Weight,
-		Capacity: int32(len(req.Containers)),
+		Capacity:  int32(len(req.Containers)),
 	})
 	if err != nil {
 		return err
@@ -65,7 +65,7 @@ func main() {
 	service := micro.NewService(micro.Name("consignment"))
 	service.Init()
 
-	vesselClient := vesselProto.NewVesselServiceClient("go.micro.srv.vessel", service.Client())
+	vesselClient := vesselProto.NewVesselService("go.micro.srv.vessel", service.Client())
 
 	if err := pb.RegisterShippingServiceHandler(service.Server(), &consignmentService{repo, vesselClient}); err != nil {
 		log.Panic(err)
